@@ -1,4 +1,5 @@
-  "language": "ruby",
-  "group": "stable",
-  "dist": "precise",
-  "os": "linux"
+  language: cpp
+  script: scans
+  compiler:
+    -clang
+    -gcc
